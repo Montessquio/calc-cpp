@@ -1,0 +1,35 @@
+In file included from main.cpp:1:0:
+tokenizer.h:49:28: error: 'string' was not declared in this scope
+         char tokenize_expr(string input, std::vector<string>* tokens);
+                            ^
+tokenizer.h:49:28: note: suggested alternatives:
+In file included from E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string:39:0,
+                 from tokenizer.h:3,
+                 from main.cpp:1:
+E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h:74:33: note:   'std::__cxx11::string'
+   typedef basic_string<char>    string;   
+                                 ^
+E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h:74:33: note:   'std::__cxx11::string'
+In file included from main.cpp:1:0:
+tokenizer.h:49:54: error: 'string' was not declared in this scope
+         char tokenize_expr(string input, std::vector<string>* tokens);
+                                                      ^
+tokenizer.h:49:54: note: suggested alternatives:
+In file included from E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string:39:0,
+                 from tokenizer.h:3,
+                 from main.cpp:1:
+E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h:74:33: note:   'std::__cxx11::string'
+   typedef basic_string<char>    string;   
+                                 ^
+E:/AppData/TDM-GCC/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h:74:33: note:   'std::__cxx11::string'
+In file included from main.cpp:1:0:
+tokenizer.h:49:60: error: template argument 1 is invalid
+         char tokenize_expr(string input, std::vector<string>* tokens);
+                                                            ^
+tokenizer.h:49:60: error: template argument 2 is invalid
+tokenizer.h:49:63: error: 'tokens' was not declared in this scope
+         char tokenize_expr(string input, std::vector<string>* tokens);
+                                                               ^
+tokenizer.h:49:69: error: expression list treated as compound expression in initializer [-fpermissive]
+         char tokenize_expr(string input, std::vector<string>* tokens);
+                                                                     ^
